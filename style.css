@@ -132,6 +132,7 @@ section {
 .group {
     display: flex;
     flex-direction: column;
+    margin: 40px 0;
 }
 
 .center {
@@ -150,7 +151,7 @@ img.github {
 }
 .contact-logo-images {
     width: 55px;
-    /* margin: 30px 0 60px 0; */
+    height: auto;
 }
 
 .logo-images-group {
@@ -225,6 +226,7 @@ button {
     }
     .contact-logo-images {
         width: 80px;
+        height: auto;
     }
     form label[for="form-message"] {
          margin-top: 40px;
